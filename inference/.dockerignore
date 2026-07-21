@@ -1,0 +1,8 @@
+# Weights are provided via model.tar.gz (/opt/ml/model), never the image.
+model/
+# Local test scaffolding and outputs.
+test/output/
+# Build artifacts and caches.
+**/__pycache__/
+**/*.pyc
+*.tar.gz

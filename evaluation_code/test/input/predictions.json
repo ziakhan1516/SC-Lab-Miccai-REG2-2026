@@ -1,0 +1,624 @@
+[
+  {
+    "pk": "000000",
+    "url": "https://local.test/jobs/000000/",
+    "inputs": [
+      {
+        "pk": 1000000,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000001,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000001",
+    "url": "https://local.test/jobs/000001/",
+    "inputs": [
+      {
+        "pk": 1000100,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000101,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000002",
+    "url": "https://local.test/jobs/000002/",
+    "inputs": [
+      {
+        "pk": 1000200,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000201,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000003",
+    "url": "https://local.test/jobs/000003/",
+    "inputs": [
+      {
+        "pk": 1000300,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000301,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000004",
+    "url": "https://local.test/jobs/000004/",
+    "inputs": [
+      {
+        "pk": 1000400,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000401,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000005",
+    "url": "https://local.test/jobs/000005/",
+    "inputs": [
+      {
+        "pk": 1000500,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000501,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000006",
+    "url": "https://local.test/jobs/000006/",
+    "inputs": [
+      {
+        "pk": 1000600,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000601,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000007",
+    "url": "https://local.test/jobs/000007/",
+    "inputs": [
+      {
+        "pk": 1000700,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000701,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000008",
+    "url": "https://local.test/jobs/000008/",
+    "inputs": [
+      {
+        "pk": 1000800,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000801,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000009",
+    "url": "https://local.test/jobs/000009/",
+    "inputs": [
+      {
+        "pk": 1000900,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1000901,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000010",
+    "url": "https://local.test/jobs/000010/",
+    "inputs": [
+      {
+        "pk": 1001000,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1001001,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000011",
+    "url": "https://local.test/jobs/000011/",
+    "inputs": [
+      {
+        "pk": 1001100,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1001101,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000012",
+    "url": "https://local.test/jobs/000012/",
+    "inputs": [
+      {
+        "pk": 1001200,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1001201,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000013",
+    "url": "https://local.test/jobs/000013/",
+    "inputs": [
+      {
+        "pk": 1001300,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1001301,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000014",
+    "url": "https://local.test/jobs/000014/",
+    "inputs": [
+      {
+        "pk": 1001400,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1001401,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000015",
+    "url": "https://local.test/jobs/000015/",
+    "inputs": [
+      {
+        "pk": 1001500,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1001501,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000016",
+    "url": "https://local.test/jobs/000016/",
+    "inputs": [
+      {
+        "pk": 1001600,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1001601,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "000017",
+    "url": "https://local.test/jobs/000017/",
+    "inputs": [
+      {
+        "pk": 1001700,
+        "socket": {
+          "slug": "visual-context-question"
+        },
+        "interface": {
+          "slug": "visual-context-question"
+        }
+      },
+      {
+        "pk": 1001701,
+        "socket": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        },
+        "interface": {
+          "slug": "histopathology-region-of-interest-thumbnail"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "visual-context-response",
+          "relative_path": "visual-context-response.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "PIT_01_00020_01",
+    "url": "https://local.test/jobs/PIT_01_00020_01/",
+    "inputs": [
+      {
+        "pk": 2000000,
+        "socket": {
+          "slug": "whole-slide-image"
+        },
+        "interface": {
+          "slug": "whole-slide-image"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "chain-of-thought",
+          "relative_path": "chain-of-thought.json"
+        }
+      }
+    ]
+  },
+  {
+    "pk": "PIT_02_00019_01",
+    "url": "https://local.test/jobs/PIT_02_00019_01/",
+    "inputs": [
+      {
+        "pk": 2000100,
+        "socket": {
+          "slug": "whole-slide-image"
+        },
+        "interface": {
+          "slug": "whole-slide-image"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "socket": {
+          "slug": "chain-of-thought",
+          "relative_path": "chain-of-thought.json"
+        }
+      }
+    ]
+  }
+]

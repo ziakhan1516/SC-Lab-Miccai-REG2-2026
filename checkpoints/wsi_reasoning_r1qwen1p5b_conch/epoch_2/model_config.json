@@ -1,0 +1,18 @@
+{
+  "arch": "reasoning",
+  "lm_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  "feature_dim": 512,
+  "num_visual_tokens": 128,
+  "resampler_depth": 3,
+  "num_heads": 8,
+  "dropout": 0.1,
+  "max_prompt_length": 512,
+  "max_target_length": 2048,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "system_prompt": "You are an expert pathologist. You are shown one whole-slide image (WSI) represented by learned visual feature tokens. First, think step by step inside <think> </think>: lay out the explicit, pathologist-style diagnostic workflow as numbered Question / Answer / Next Question steps, using the canonical workflow question wording. After </think>, write the final structured pathology report under a 'Pathology Report:' heading. Base every conclusion strictly on the visual evidence in the slide.",
+  "think_format": true,
+  "torch_dtype": "bfloat16",
+  "load_in_4bit": false
+}

@@ -1,0 +1,34 @@
+# NOTE: torch/torchvision are installed in the Dockerfile from the CUDA 12.8
+# wheel index (cu128), matching the training env. Do not add them here.
+
+# ---- Platform I/O ----
+Pillow
+numpy==2.0.2
+tifffile
+imagecodecs
+
+# ---- Generation model (pinned to the training env so the LoRA adapter loads) ----
+transformers==4.57.6
+peft==0.17.1
+accelerate==1.10.1
+safetensors==0.6.2
+tokenizers==0.22.2
+huggingface-hub==0.35.1
+sentencepiece==0.2.1
+einops==0.8.2
+
+# ---- CONCH ViT-B-16 encoder ----
+timm==1.0.20
+ftfy
+regex
+
+# ---- CLAM WSI pipeline (pyramid check / seg / patch / read) ----
+openslide-python==1.4.2
+pyvips==2.2.1
+opencv-python-headless==4.11.0.86
+h5py==3.13.0
+shapely==2.1.2
+pandas==2.2.3
+scipy==1.15.2
+matplotlib==3.10.3
+tqdm==4.67.1

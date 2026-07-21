@@ -1,0 +1,17 @@
+{
+  "checkpoint": "checkpoints/wsi_reasoning_r1qwen1p5b_conch",
+  "source": "checkpoints/wsi_reasoning_r1qwen1p5b_conch/test_eval_v3.json",
+  "field": "report",
+  "bertscore_model": "roberta-large",
+  "scores": {
+    "bleu_1": 0.7247295905620648,
+    "bleu_2": 0.6758682258527805,
+    "bleu_3": 0.6335691899867294,
+    "bleu_4": 0.596142836783217,
+    "rouge_l_f1": 0.7360058039712064,
+    "bertscore_f1": 0.9585708379745483,
+    "gleu": 0.5396680649279592
+  },
+  "num_scored": 223,
+  "num_empty_ref_skipped": 0
+}

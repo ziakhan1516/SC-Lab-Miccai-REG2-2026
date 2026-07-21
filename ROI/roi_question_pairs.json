@@ -1,0 +1,92 @@
+[
+  {
+    "id": "000000",
+    "image": "roi_000000.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000001",
+    "image": "roi_000001.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000002",
+    "image": "roi_000002.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000003",
+    "image": "roi_000003.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000004",
+    "image": "roi_000004.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000005",
+    "image": "roi_000005.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000006",
+    "image": "roi_000006.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000007",
+    "image": "roi_000007.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000008",
+    "image": "roi_000008.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000009",
+    "image": "roi_000009.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000010",
+    "image": "roi_000010.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000011",
+    "image": "roi_000011.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000012",
+    "image": "roi_000012.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000013",
+    "image": "roi_000013.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000014",
+    "image": "roi_000014.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000015",
+    "image": "roi_000015.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000016",
+    "image": "roi_000016.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  },
+  {
+    "id": "000017",
+    "image": "roi_000017.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly"
+  }
+]
