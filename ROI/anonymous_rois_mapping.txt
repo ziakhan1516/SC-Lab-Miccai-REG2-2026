@@ -1,0 +1,19 @@
+row_index	anonymous_id	image_path	image	variant	paired_anonymous_id	b3_paired_anonymous_id	pair_id	label	slide_id	x	y	magnification	patch_size	question
+0	000000	<your_path>/rois/roi_000000.jpg	roi_000000.jpg	original	none	000004	background_000002	background	PIT_01_00019_01	43008	1024	5x	256	Is tissue visible in this ROI? Answer briefly
+1	000001	<your_path>/rois/roi_000001.jpg	roi_000001.jpg	perturbed	000012	none	tissue_pair_000005	tissue	PIT_01_00020_01	15736	7456	5x	256	Is tissue visible in this ROI? Answer briefly
+2	000002	<your_path>/rois/roi_000002.jpg	roi_000002.jpg	original	000005	000007	tissue_pair_000001	tissue	PIT_01_00019_01	6144	8664	5x	256	Is tissue visible in this ROI? Answer briefly
+3	000003	<your_path>/rois/roi_000003.jpg	roi_000003.jpg	original	none	000008	background_000004	background	PIT_01_00020_01	39936	9216	5x	256	Is tissue visible in this ROI? Answer briefly
+4	000004	<your_path>/rois/roi_000004.jpg	roi_000004.jpg	original	000014	000000	tissue_pair_000004	tissue	PIT_01_00020_01	53440	8480	5x	256	Is tissue visible in this ROI? Answer briefly
+5	000005	<your_path>/rois/roi_000005.jpg	roi_000005.jpg	perturbed	000002	none	tissue_pair_000001	tissue	PIT_01_00019_01	6144	8664	5x	256	Is tissue visible in this ROI? Answer briefly
+6	000006	<your_path>/rois/roi_000006.jpg	roi_000006.jpg	perturbed	000011	none	tissue_pair_000003	tissue	PIT_01_00020_01	51392	8480	5x	256	Is tissue visible in this ROI? Answer briefly
+7	000007	<your_path>/rois/roi_000007.jpg	roi_000007.jpg	original	none	000002	background_000000	background	PIT_01_00019_01	39936	3072	5x	256	Is tissue visible in this ROI? Answer briefly
+8	000008	<your_path>/rois/roi_000008.jpg	roi_000008.jpg	original	000016	000003	tissue_pair_000000	tissue	PIT_01_00019_01	3072	2352	5x	256	Is tissue visible in this ROI? Answer briefly
+9	000009	<your_path>/rois/roi_000009.jpg	roi_000009.jpg	original	none	000011	background_000005	background	PIT_01_00020_01	29696	6144	5x	256	Is tissue visible in this ROI? Answer briefly
+10	000010	<your_path>/rois/roi_000010.jpg	roi_000010.jpg	original	000013	000017	tissue_pair_000002	tissue	PIT_01_00019_01	7168	8664	5x	256	Is tissue visible in this ROI? Answer briefly
+11	000011	<your_path>/rois/roi_000011.jpg	roi_000011.jpg	original	000006	000009	tissue_pair_000003	tissue	PIT_01_00020_01	51392	8480	5x	256	Is tissue visible in this ROI? Answer briefly
+12	000012	<your_path>/rois/roi_000012.jpg	roi_000012.jpg	original	000001	000015	tissue_pair_000005	tissue	PIT_01_00020_01	15736	7456	5x	256	Is tissue visible in this ROI? Answer briefly
+13	000013	<your_path>/rois/roi_000013.jpg	roi_000013.jpg	perturbed	000010	none	tissue_pair_000002	tissue	PIT_01_00019_01	7168	8664	5x	256	Is tissue visible in this ROI? Answer briefly
+14	000014	<your_path>/rois/roi_000014.jpg	roi_000014.jpg	perturbed	000004	none	tissue_pair_000004	tissue	PIT_01_00020_01	53440	8480	5x	256	Is tissue visible in this ROI? Answer briefly
+15	000015	<your_path>/rois/roi_000015.jpg	roi_000015.jpg	original	none	000012	background_000003	background	PIT_01_00020_01	16384	9216	5x	256	Is tissue visible in this ROI? Answer briefly
+16	000016	<your_path>/rois/roi_000016.jpg	roi_000016.jpg	perturbed	000008	none	tissue_pair_000000	tissue	PIT_01_00019_01	3072	2352	5x	256	Is tissue visible in this ROI? Answer briefly
+17	000017	<your_path>/rois/roi_000017.jpg	roi_000017.jpg	original	none	000010	background_000001	background	PIT_01_00019_01	61440	8192	5x	256	Is tissue visible in this ROI? Answer briefly

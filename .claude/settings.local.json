@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /home/ali/storage1/Bin-Version2/Reg2/codings/Try2 *)",
+      "Read(//tmp/**)",
+      "Bash(awk '{print $5\"\\\\t\"$9}')"
+    ],
+    "additionalDirectories": [
+      "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2"
+    ]
+  }
+}

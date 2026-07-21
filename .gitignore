@@ -1,0 +1,61 @@
+# ==========================================================================
+#  SC-Lab REG2026 — files kept OUT of git (weights, data, build artifacts)
+#  Model weights are hosted externally — see README "Model Weights".
+# ==========================================================================
+
+# ---- Model weights / large binaries (host externally) --------------------
+*.tar.gz
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.msgpack
+*.onnx
+*.h5
+*.tiff
+*.svs
+*.ndpi
+
+# ---- Local weight / checkpoint directories -------------------------------
+counhTrainedModelWeights/
+ClamforMiccai2026/
+
+# Keep the small JSON configs/results under checkpoints/, drop the weights,
+# the 156 MB training-split JSON, and the duplicated per-epoch tokenizers.
+checkpoints/**/optimizer.pt
+checkpoints/**/scheduler.pt
+checkpoints/**/splits/train.json
+checkpoints/**/epoch_*/tokenizer/
+
+# ---- The full 63 GB challenge workspace (nested git + judge model + images)
+#  The *code* we need was copied into ./inference and ./evaluation_code.
+Evaluation/
+
+# ---- Large training data split (host externally) -------------------------
+counhTrainedModelWeights/splits/train.json
+
+# ---- Python caches / build -----------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- LaTeX build artifacts -----------------------------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ---- OS / editor ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

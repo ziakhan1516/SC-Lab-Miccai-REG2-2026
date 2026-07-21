@@ -1,0 +1,9 @@
+# Test outputs are generated locally and should not be committed
+test/output/
+
+# Judge LLM weights — local only
+ground_truth/Qwen3-8B/*
+!ground_truth/Qwen3-8B/README.md
+
+# Docker image export archives
+*.tar.gz

@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "test_size": 0.02,
+  "all_processed_samples": 11220,
+  "matched_samples": 11148,
+  "missing_wsi_samples": 72,
+  "train_samples": 10925,
+  "test_samples": 223
+}

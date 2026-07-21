@@ -1,0 +1,182 @@
+[
+  {
+    "id": "000000",
+    "image": "roi_000000.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000000.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000001",
+    "image": "roi_000001.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000001.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000002",
+    "image": "roi_000002.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000002.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000003",
+    "image": "roi_000003.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000003.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000004",
+    "image": "roi_000004.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000004.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000005",
+    "image": "roi_000005.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000005.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000006",
+    "image": "roi_000006.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000006.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000007",
+    "image": "roi_000007.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000007.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000008",
+    "image": "roi_000008.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000008.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000009",
+    "image": "roi_000009.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000009.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000010",
+    "image": "roi_000010.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000010.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000011",
+    "image": "roi_000011.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000011.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000012",
+    "image": "roi_000012.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000012.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000013",
+    "image": "roi_000013.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000013.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000014",
+    "image": "roi_000014.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000014.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000015",
+    "image": "roi_000015.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000015.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000016",
+    "image": "roi_000016.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000016.pt",
+    "shape": [
+      1,
+      512
+    ]
+  },
+  {
+    "id": "000017",
+    "image": "roi_000017.jpg",
+    "question": "Is tissue visible in this ROI? Answer briefly",
+    "feature_path": "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/ROI/visual_grounding/roi_features/000017.pt",
+    "shape": [
+      1,
+      512
+    ]
+  }
+]

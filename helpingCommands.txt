@@ -1,0 +1,107 @@
+# =============================================================================
+# REG2026 - Workflow Reasoning (Metric A): WSI -> reasoning chain + pathology report
+# Model: DeepSeek-R1-Distill-Qwen-7B (LoRA) + Perceiver resampler over WSI patches
+# Hardware assumed: 4x RTX A5000 (25 GB). 7B (~14 GB bf16) fits per GPU, so we use
+# DistributedDataParallel (data-parallel) via torchrun, NOT model sharding.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 0) (optional) Sanity check: how many cases match a WSI feature file, and a
+#    preview of the prompt/target the model is trained on. Loads no LLM.
+# -----------------------------------------------------------------------------
+python3 main.py inspect \
+  --json "/home/ali/storage4/Bin/reg2026/dataset Reg/train_CoT.json" \
+  --pt-dir "/home/ali/storage1/Bin-Version2/Reg2/features/pt_files/"
+
+# -----------------------------------------------------------------------------
+# 1) TRAIN  (4-GPU data-parallel)
+#    - LoRA (r=16) keeps only the adapters + resampler trainable (base 7B frozen)
+#    - --gradient-checkpointing + --static-graph: required together for DDP to
+#      keep activation memory low enough for the 7B on 25 GB cards.
+#    - effective batch = batch_size * grad_accum * num_gpus = 1 * 8 * 4 = 32
+# -----------------------------------------------------------------------------
+CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --standalone --nproc_per_node=4 main.py train \
+  --json "/home/ali/storage4/Bin/reg2026/dataset Reg/train_CoT.json" \
+  --pt-dir "/home/ali/storage1/Bin-Version2/Reg2/features/pt_files/" \
+  --output-dir "/home/ali/storage1/Bin-Version2/Reg2/codings/Try1/checkpoints/wsi_reasoning_r1qwen7b_conch" \
+  --arch reasoning \
+  --model-name deepseek-ai/DeepSeek-R1-Distill-Qwen-7B \
+  --feature-dim 1024 \
+  --num-visual-tokens 256 \
+  --resampler-depth 3 \
+  --lora-r 16 --lora-alpha 32 --lora-dropout 0.05 \
+  --epochs 3 \
+  --batch-size 1 \
+  --gradient-accumulation-steps 8 \
+  --lr 2e-5 \
+  --max-prompt-length 512 \
+  --max-target-length 2048 \
+  --gradient-checkpointing \
+  --static-graph \
+  --test-size 0.02 \
+  --eval-num-samples 10 \
+  --missing-wsi skip
+
+# -----------------------------------------------------------------------------
+# 1b) TRAIN with CONCH features (512-dim)  -- DeepSeek-R1-Distill-Qwen-1.5B
+#     CONCH .pt files are [N, 512], so --feature-dim 512 (now the default).
+#     pt-dir points at the CONCH pt_files folder (note the space in "features Conch").
+# -----------------------------------------------------------------------------
+CUDA_VISIBLE_DEVICES=0,1 torchrun --standalone --nproc_per_node=2 main.py train \
+  --json "/home/ali/storage4/Bin/reg2026/dataset Reg/train_CoT.json" \
+  --pt-dir "/home/ali/storage1/Bin-Version2/Reg2/features Conch/features/pt_files/" \
+  --output-dir "/home/ali/storage1/Bin-Version2/Reg2/codings/Try2/checkpoints/wsi_reasoning_r1qwen1p5b_conch" \
+  --arch reasoning \
+  --model-name deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B \
+  --feature-dim 512 \
+  --num-visual-tokens 128 \
+  --resampler-depth 3 \
+  --lora-r 16 --lora-alpha 32 --lora-dropout 0.05 \
+  --epochs 3 \
+  --batch-size 1 \
+  --gradient-accumulation-steps 16 \
+  --lr 2e-5 \
+  --max-prompt-length 512 \
+  --max-target-length 2048 \
+  --gradient-checkpointing \
+  --static-graph \
+  --test-size 0.02 \
+  --eval-num-samples 10 \
+  --missing-wsi skip
+
+# Notes:
+# - If you hit CUDA OOM: lower --num-visual-tokens (e.g. 128) or --resampler-depth 2.
+# - If you have spare memory: raise --num-visual-tokens to 576 for finer grounding.
+# - For the true competition MESS/Final cosine during eval (downloads PubMedBERT),
+#   add:  --eval-embeddings
+# - Single-GPU model-parallel alternative (slower, run with plain python, NOT
+#   torchrun):  python3 main.py train ... --device-map auto
+
+# -----------------------------------------------------------------------------
+# 2) INFERENCE on one slide (writes reasoning chain + Pathology Report)
+# -----------------------------------------------------------------------------
+python3 main.py infer \
+  --checkpoint "/home/ali/storage1/Bin-Version2/Reg2/codings/Try1/checkpoints/wsi_reasoning_r1qwen7b_conch" \
+  --pt-dir "/home/ali/storage1/Bin-Version2/Reg2/features/pt_files/" \
+  --slide-id PIT_01_00019_01 \
+  --max-new-tokens 1200 \
+  --output infer_out.json
+
+# -----------------------------------------------------------------------------
+# 3) EVALUATE (generation quality vs. references, lexical BLEU/ROUGE)
+# -----------------------------------------------------------------------------
+python3 main.py evaluate \
+  --checkpoint "/home/ali/storage1/Bin-Version2/Reg2/codings/Try1/checkpoints/wsi_reasoning_r1qwen7b_conch" \
+  --json "/home/ali/storage4/Bin/reg2026/dataset Reg/train_CoT.json" \
+  --pt-dir "/home/ali/storage1/Bin-Version2/Reg2/features/pt_files/" \
+  --limit 20 \
+  --max-new-tokens 1200 \
+  --output eval_out.json
+
+# -----------------------------------------------------------------------------
+# 4) FULL Workflow-Reasoning metric (BPV + Edge-F1 + MESS + Final Report Score)
+# -----------------------------------------------------------------------------
+python3 evaluate_workflow_reasoning.py \
+  --checkpoint "/home/ali/storage1/Bin-Version2/Reg2/codings/Try1/checkpoints/wsi_reasoning_r1qwen7b_conch" \
+  --json "/home/ali/storage4/Bin/reg2026/dataset Reg/train_CoT.json" \
+  --pt-dir "/home/ali/storage1/Bin-Version2/Reg2/features/pt_files/"

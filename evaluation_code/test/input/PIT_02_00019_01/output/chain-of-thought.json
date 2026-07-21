@@ -1,0 +1,67 @@
+[
+  {
+    "question": "What is the organ?",
+    "answer": "Breast",
+    "next_question": "Is there any abnormality present?"
+  },
+  {
+    "question": "What is the procedure?",
+    "answer": "Core needle biopsy",
+    "next_question": "Is there any abnormality present?"
+  },
+  {
+    "question": "Is there any abnormality present?",
+    "answer": "Yes, there is an abnormality.",
+    "next_question": "Is there any proliferative lesion present?"
+  },
+  {
+    "question": "Is there any abnormality present?",
+    "answer": "Yes, there is an abnormality.",
+    "next_question": "Is there any microcalcification present?"
+  },
+  {
+    "question": "Is there any microcalcification present?",
+    "answer": "No, there is no microcalcification.",
+    "next_question": "What is the number of diagnoses to includes?"
+  },
+  {
+    "question": "Is there any proliferative lesion present?",
+    "answer": "Yes, there is a proliferative lesion.",
+    "next_question": "Is there any invasion present?"
+  },
+  {
+    "question": "Is there any invasion present?",
+    "answer": "Yes, there is an invasion.",
+    "next_question": "What is the primary of neoplasm?"
+  },
+  {
+    "question": "What is the primary of neoplasm?",
+    "answer": "Mammary",
+    "next_question": "What is the histologic type of neoplasm?"
+  },
+  {
+    "question": "What is the histologic type of neoplasm?",
+    "answer": "Invasive lobular carcinoma",
+    "next_question": "Is there any additional finding present?"
+  },
+  {
+    "question": "Is there any additional finding present?",
+    "answer": "No, there is no additional finding.",
+    "next_question": "What is the number of diagnoses to includes?"
+  },
+  {
+    "question": "What is the number of diagnoses to includes?",
+    "answer": "1",
+    "next_question": "What is the #1 diagnosis?"
+  },
+  {
+    "question": "What is the #1 diagnosis?",
+    "answer": "Invasive lobular carcinoma",
+    "next_question": "What is the final pathology report?"
+  },
+  {
+    "question": "What is the final pathology report?",
+    "answer": "Breast, core needle biopsy;\\n  Invasive lobular carcinoma",
+    "next_question": ""
+  }
+]
