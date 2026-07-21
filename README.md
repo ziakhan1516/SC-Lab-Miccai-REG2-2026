@@ -42,9 +42,6 @@ LLM**:
 **Held-out test results (223 cases):** Workflow Reasoning Score **0.721**
 (BPV 0.565, Edge-F1 0.807, MESS 0.756, Final Report 0.655).
 
-Full write-up: [`REG2026_paper.pdf`](REG2026_paper.pdf) · architecture figure:
-[`model_overview.pdf`](model_overview.pdf).
-
 ---
 
 ## Repository layout
@@ -53,7 +50,6 @@ Full write-up: [`REG2026_paper.pdf`](REG2026_paper.pdf) · architecture figure:
 .
 ├── README.md                    # this file
 ├── requirements-train.txt       # training / evaluation environment
-├── REG2026_paper.pdf / .tex     # method write-up
 │
 ├── Training code (repo root)
 │   ├── train.py                 # DDP training entry point

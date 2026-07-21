@@ -62,3 +62,7 @@ Thumbs.db
 
 # Claude Code local settings
 .claude/
+
+# Paper / documents (kept out of the code repo)
+*.pdf
+*.tex
