@@ -1,9 +1,15 @@
+## Models Weights can be download from here
+https://injeackr-my.sharepoint.com/:u:/g/personal/ziakhan_live_inje_ac_kr/IQAJiASSLAssRa_9cC_lLFDeAR1cklsRvEuOiLUCynffQ74?e=bkT0nb
+
+
 # SC-Lab — REG2026 Grand Challenge Submission
 
 Code, training pipeline, and Docker inference container for our submission to the
 **REG2026** (Reasoning-Enhanced Generation for pathology) Grand Challenge.
 
 ---
+
+
 
 ## Team
 
