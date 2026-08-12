@@ -1,6 +1,6 @@
 
 
-![Diagram after Review](Diagram%20after%20Review.png)
+![Diagram after Review](reg22026%20after%20review.drawio.svg)
 
 ## Models Weights can be download from here
 https://injeackr-my.sharepoint.com/:u:/g/personal/ziakhan_live_inje_ac_kr/IQAJiASSLAssRa_9cC_lLFDeAR1cklsRvEuOiLUCynffQ74?e=bkT0nb
