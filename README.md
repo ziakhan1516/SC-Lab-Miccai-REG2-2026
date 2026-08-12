@@ -20,7 +20,7 @@ Code, training pipeline, and Docker inference container for our submission to th
 | | |
 |---|---|
 | **Team name** | SC-Lab |
-| **Team members** | Ziaullah Khan · Shrestha Nischal Lal · Nheng Vanchhay · Md. Ariful Islam Mozumder · Hee-Cheol Kim |
+| **Team members** | Ziaullah Khan· Khalid Abdul Rehman · Shrestha Nischal Lal · Nheng Vanchhay · Md. Ariful Islam Mozumder · Hee-Cheol Kim |
 | **Grand Challenge username** | `zkhan.msee19seecs` (SC-LAB) |
 | **Grand Challenge profile URL** | https://grand-challenge.org/users/zkhan.msee19seecs/ |
 
