@@ -17,10 +17,10 @@ Code, training pipeline, and Docker inference container for our submission to th
 
 ## Team
 
-| | |
-|---|---|
-| **Team name** | SC-Lab |
-| **Team members** | Ziaullah Khan· Khalid Abdul Rehman · Shrestha Nischal Lal · Nheng Vanchhay · Md. Ariful Islam Mozumder · Hee-Cheol Kim |
+|                  |                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Lab**          | SC-Lab, Inje University, South Korea                                                                                      |
+| **Team Members** | Ziaullah Khan · Khalid Abdul Rehman · Shrestha Nischal Lal · Nheng Vanchhay · Md. Ariful Islam Mozumder · Hee-Cheol Kim |
 
 ---
 
